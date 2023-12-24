@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url('C:/Users/SANTOSH/OneDrive/Desktop/reg3.jpg');
+      background-image: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%; 
+    }
+  </style>
+  <title>Login Page</title>
+</head>
+<body>
+  
+  <div class="container mt-5">
+    <h2 class="mb-4">Enter your details here!</h2>
+    <form action="connect.php" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name Here" required>
+      </div>
+      <div class="form-group">
+        <label for="rollno">Roll No.:</label>
+        <input type="number" class="form-control" id="rollno" name="rollno" placeholder="Enter Your Roll No. Here" required>
+      </div>
+      <div class="form-group">
+        <label for="branch">Branch:</label>
+        <input type="text" class="form-control" id="branch" name="branch" placeholder="Enter Branch" required>      
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="number" class="form-control" id="password" name="password" placeholder="Enter Your Roll No. as password" required>
+      </div>
+      <div class="form-group">
+        <label for="sem">Semester:</label>
+        <br>
+        <input type="radio" name="sem" value="Sem 2">
+        <label>Sem 2</label>
+        
+        <br>
+        <input type="radio" name="sem" value="Sem 4">
+        <label>Sem 4</label>
+        
+        <br>
+        <input type="radio" name="sem" value="Sem 6">
+        <label>Sem 6</label>
+        <br>
+        <input type="radio" name="sem" value="Sem 8">
+        <label>Sem 8</label>
+      </div>
+  
+      
+    
+      <button type="submit"><a href="reg.html" class="btn-primary">Register</button>
+    </form>
+  </div>
+
+        </body>

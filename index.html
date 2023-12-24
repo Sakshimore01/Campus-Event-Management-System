@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Background image -->
+  <style>
+    body {
+      background-image: url('C:/Users/SANTOSH/OneDrive/Desktop/event2.jpg');
+      background-image: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%; 
+    }
+    </style>
+    <!-- Title Of the page-->
+  <title>Campus Event Management System</title>
+</head>
+<body>
+<!-- Getting details from user -->
+<div class="container mt-5">
+  <h2 class="mb-4">Event Details</h2>
+  <form>
+    <div class="form-group" required>
+      <label for="eventName">Event Name:</label>
+      <input type="text" class="form-control" id="eventName" placeholder="Enter Event Name" required>
+    </div>
+    <div class="form-group" required>
+      <label for="eventDate">Event Date:</label>
+      <input type="date" class="form-control" id="eventDate" required>
+    </div>
+    <div class="form-group" required>
+      <label for="eventTime">Event Time:</label>
+      <input type="time" class="form-control" id="eventTime" required>
+    </div>
+    <div class="form-group" required>
+      <label for="eventVenue">Event Venue:</label>
+      <input type="text" class="form-control" id="eventVenue" placeholder="Enter Venue" required>
+    </div>
+    <div class="form-group" required>
+      <label for="coordinatorName">Coordinator Name:</label>
+      <input type="text" class="form-control" id="coordinatorName" placeholder="Enter Coordinator Name" required>
+    </div>
+    <div class="form-group" required>
+      <label for="eventBudget">Event Budget:</label>
+      <input type="number" class="form-control" id="eventBudget" placeholder="Enter Budget" required>
+    </div>
+    <button type="submit"><a href="index1.html" class="btn btn-primary" >Submit</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
